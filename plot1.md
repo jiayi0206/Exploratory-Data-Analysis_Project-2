@@ -17,3 +17,9 @@ plot(Sum_emmision,  type = "b", pch = 18, col = "blue",
 dev.off()
 
 ````
+
+
+
+
+## Question 4
+Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
