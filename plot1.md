@@ -9,8 +9,11 @@ SCC <- readRDS("Source_Classification_Code.rds")
 
 Sum_emmision <- aggregate(Emissions ~ year, NEI, sum)
 
-plot(Sum_emmision, xlab="Year",
+png(filename = "plot1.png", width = 480, height = 480, units = "px")
+plot(Sum_emmision,  type = "b", pch = 18, col = "blue",
+     xlab="Year",
      ylab="PM2.5 Emissions", 
      main="PM2.5 Emissions in US")
+dev.off()
 
 ````
